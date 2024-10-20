@@ -1,0 +1,11 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Azure Game Shop Mass Importer";
+}
+
+<div class="text-center">
+    <form name="importForm" action="import" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" id="file" /><input type="submit" />
+    </form>
+</div>
